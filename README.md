@@ -11,7 +11,7 @@
 ## Шаг 1: Клонирование репозитория
 Откройте терминал и выполните команду для клонирования репозитория:
 ```bash
-git clone https://github.com/sloobmanfrontend3.git
+git clone https://github.com/sloobman/frontend3.git
 cd frontend3
 ```
 
@@ -20,6 +20,7 @@ cd frontend3
 
 ### Основной сервер (порт 3000)
 ```bash
+cd main3
 node backend/server.js
 ```
 После запуска вы увидите сообщение:
@@ -29,6 +30,7 @@ Main server: http://localhost:3000
 
 ### Административный сервер (порт 8080)
 ```bash
+cd main3
 node admin/admin.js
 ```
 После запуска вы увидите сообщение:
